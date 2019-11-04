@@ -1,0 +1,9 @@
+---
+applications:
+- name: gs-spring-boot
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: target/gs-spring-boot-0.1.0.jar
+  buildpacks:
+  - java_buildpack_offline
